@@ -49,13 +49,13 @@ Required environment variables:
 ```json
 {
   "email": {
-    "address": "asddealdump@gmail.com",
+    "address": "<email_address>@gmail.com",
     "check_interval_minutes": 15
   },
   "airtable": {
-    "base_id": "ASD Property Data",
-    "deals_table": "Deals",
-    "properties_table": "Properties"
+    "base_id": "<replace with base ID>",
+    "deals_table": "<replace with table ID>",
+    "properties_table": "<replace with table ID>"
   },
   "templates_dir": "templates",
   "processed_emails_log": "processed_emails.json"
