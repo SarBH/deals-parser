@@ -31,7 +31,7 @@ class DealsParser:
         if not os.path.exists(config_path):
             default_config = {
                 "email": {
-                    "address": "asddealdump@gmail.com",
+                    "address": "<email_address>@gmail.com",
                     "check_interval_minutes": 15
                 },
                 "airtable": {
