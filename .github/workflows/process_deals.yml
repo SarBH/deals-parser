@@ -2,8 +2,9 @@ name: Process Real Estate Deals
 
 on:
   schedule:
-    # Run every 15 minutes
-    - cron: '*/15 * * * *'
+    - cron: "0 14,17,20,0 * * *"  # Runs at 9 AM, 12 PM, 3 PM, 7 PM ET during EST (Nov–Mar)
+    # - cron: "0 13,16,19,23 * * *"  # Runs at 9 AM, 12 PM, 3 PM, 7 PM ET during EDT (Mar–Nov)
+    
   workflow_dispatch:  # Allow manual trigger
 
 jobs:
